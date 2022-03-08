@@ -1,0 +1,41 @@
+.container {
+    height: 100px;
+    padding: 0px 50px;
+    background-color:#000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0 ;
+    color: white;
+    box-shadow: 0px 0px 10px;
+}
+
+.brand {
+    display: flex;
+}
+
+.text {
+    margin: 0px;
+    padding: 0px;
+}
+
+.item {
+    flex: 1 ;
+    display: flex;
+    align-items: center;
+
+}
+
+.item:nth-child(2){
+    flex: 3;
+    background-color: aqua;
+}
+
+.menuItem {
+    display: flex;
+}
+
+.menuLink{
+    margin: 10px;
+}

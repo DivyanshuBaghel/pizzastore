@@ -5,7 +5,7 @@ import Image from 'next/image';
 const CollectionCard = ({id , name , price , image} ) => {
   return (
     <div className={styles.collectionCard}>
-      <img className={styles.img} src={image} alt=''/>
+      <Image className={styles.img} src={image} alt=''/>
       <div className={styles.details}>
         <div className={styles.name}>
           {name} <div className={styles.id}>id: {id}</div> 

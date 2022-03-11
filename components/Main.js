@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../styles/Main.module.css'
+import Image from 'next/image';
 
 const Main = ({ selectedPizza, pizzaListData }) => {
     const [activePizza, setActivePizza] = useState(pizzaListData[selectedPizza])
@@ -14,7 +15,7 @@ const Main = ({ selectedPizza, pizzaListData }) => {
                 <div className={styles.mainContent}>
                     <div className={styles.punkHighLight}>
                         <div className={styles.punkContainer}>
-                        <img 
+                        <Image 
                             className={styles.selectedPunk}
                             src={activePizza.img_url}
                             alt=''

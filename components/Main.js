@@ -15,7 +15,7 @@ const Main = ({ selectedPizza, pizzaListData }) => {
                 <div className={styles.mainContent}>
                     <div className={styles.punkHighLight}>
                         <div className={styles.punkContainer}>
-                        <Image 
+                        <img 
                             className={styles.selectedPunk}
                             src={activePizza.img_url}
                             alt=''

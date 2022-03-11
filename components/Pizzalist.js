@@ -7,7 +7,7 @@ const Pizzalist = ({ pizzaListData , setSelectedPizza}) => {
     <div className={styles.punkList}>
       
       {pizzaListData.map(pizza => (
-                <div onClick={() => setSelectedPizza(pizza.id -1)}>
+                <div  key={pizza.id} onClick={() => setSelectedPizza(pizza.id -1)}>
                   <CollectionCard 
                     
                     key={pizza.id}
